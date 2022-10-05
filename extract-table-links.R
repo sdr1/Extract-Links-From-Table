@@ -1,3 +1,6 @@
+library(tidyverse)
+library(rvest)
+
 extract_table_links <- function(x, trim, header = NA, convert=NA){  
   #x= raw_page_html %>% html_node("table") 
   
