@@ -1,6 +1,8 @@
 library(tidyverse)
 library(rvest)
+library(xml2)
 
+# Get links in the same dimension table as the original table 
 extract_table_links <- function(x, trim, header = NA, convert=NA){  
   #x= raw_page_html %>% html_node("table") 
   
